@@ -37,12 +37,13 @@ numbers = [(i, i * i) for i in range(11)]
 print(numbers)
 
 # Generating even numbers
-to generate even number between 0 to 21
+# to generate even number between 0 to 21
 even_numbers = [m for m in range(21) if m % 2  == 0]
 print(even_numbers)
 
 # Filter numbers: let's filter positive and even numbers from the list below
 numbers = [-8, -7, -3, -1, 0, 1, 3, 4, 5, 7, 6, 8, 10]
+print(len(numbers))
 
 
 positive_event_numbers = [i for i in numbers if i % 2 == 0 and i > 0]
@@ -76,4 +77,4 @@ def get_price(price):
     return price if price > 0 else 0
 
 prices = [get_price(i) for i in original_prices]
-print(prices
+print(prices)
